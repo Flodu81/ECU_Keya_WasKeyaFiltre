@@ -38,7 +38,7 @@ uint32_t gpsReadyTime = 0;        //Used for GGA timeout
 
 //Speed pulse output
 elapsedMillis speedPulseUpdateTimer = 0;
-byte velocityPWM_Pin = 37;      // Velocity (MPH speed) PWM pin
+byte velocityPWM_Pin = 10;      // Velocity (MPH speed) PWM pin
 #define SPEED_PULSE_IMP_PER_METER 1.426f  // Nbre de metre par imp, ex : 8 imp/tour, pneu 18.4 R38 (5.61m circ) 1.426 imp/m
 
 struct Setup {
